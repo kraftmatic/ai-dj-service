@@ -1,6 +1,9 @@
 # Ignore MP3 files
 *.mp3
 
+# But keep directory structure documentation
+!*/README.md
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
