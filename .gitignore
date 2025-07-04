@@ -1,0 +1,37 @@
+# Ignore MP3 files
+*.mp3
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+.env
+
+# Ignore temporary files
+*.tmp
+*.temp
+temp/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore generated audio files
+intro_*.wav
+news_*.wav
+mixed_*.wav

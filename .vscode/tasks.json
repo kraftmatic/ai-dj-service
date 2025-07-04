@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start AI DJ",
+            "type": "shell",
+            "command": "C:/Python312/python.exe",
+            "args": ["main.py"],
+            "group": "build",
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Run Setup Check",
+            "type": "shell",
+            "command": "C:/Python312/python.exe",
+            "args": ["setup.py"],
+            "group": "test",
+            "isBackground": false,
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Run Component Tests",
+            "type": "shell",
+            "command": "C:/Python312/python.exe",
+            "args": ["test.py"],
+            "group": "test",
+            "isBackground": false,
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Install Requirements",
+            "type": "shell",
+            "command": "C:/Python312/python.exe",
+            "args": ["-m", "pip", "install", "-r", "requirements.txt"],
+            "group": "build",
+            "isBackground": false,
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            }
+        }
+    ]
+}

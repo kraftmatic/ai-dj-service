@@ -1,0 +1,8 @@
+pydub
+mutagen
+edge-tts
+requests
+pygame
+asyncio
+feedparser
+beautifulsoup4
